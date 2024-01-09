@@ -1,0 +1,70 @@
+{
+    "type": "MySQLNotebook",
+    "version": "1.0",
+    "caption": "Result #1",
+    "content": "-- this query counts the number of users\r\nSELECT COUNT(distinct user_id) AS user_count\r\nFROM business.baskets",
+    "options": {
+        "tabSize": 4,
+        "indentSize": 4,
+        "insertSpaces": true,
+        "defaultEOL": "LF",
+        "trimAutoWhitespace": true
+    },
+    "viewState": null,
+    "contexts": [
+        {
+            "state": {
+                "start": 1,
+                "end": 3,
+                "language": "mysql",
+                "result": {
+                    "type": "resultIds",
+                    "list": [
+                        "7460f2bf-1ef6-411e-f8d8-cfedeb2d3c25"
+                    ]
+                },
+                "currentHeight": 352,
+                "maximizeResultPane": true,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 109
+                        },
+                        "contentStart": 41,
+                        "state": 3
+                    }
+                ]
+            },
+            "data": [
+                {
+                    "tabId": "8fe83e79-6e67-43a7-bc5a-0f2792940a32",
+                    "resultId": "7460f2bf-1ef6-411e-f8d8-cfedeb2d3c25",
+                    "rows": [
+                        {
+                            "0": 22525
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "user_count",
+                            "field": "0",
+                            "dataType": {
+                                "type": 4
+                            }
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": "OK, 1 record retrieved in 28.148ms"
+                    },
+                    "totalRowCount": 1,
+                    "hasMoreRows": false,
+                    "currentPage": 0,
+                    "index": 0,
+                    "sql": "-- this query counts the number of users\nSELECT COUNT(distinct user_id) AS user_count\nFROM business.baskets"
+                }
+            ]
+        }
+    ]
+}
